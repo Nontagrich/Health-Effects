@@ -9,5 +9,20 @@ body,html{
 }
 
 .main-img{
-    background: url(https://farm1.staticflickr.com/879/27578007138_5a1b5f4a94_b.jpg);
+    background: url(https://media.discordapp.net/attachments/920846679702396976/1037327311609024563/27578007138_5a1b5f4a94_b.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+.main-text{
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  font-size: 150%;
 }
