@@ -21,8 +21,21 @@ body,html{
   color: white;
   position: absolute;
   left: 0;
-  top: 35%;
+  top: 30%;
   width: 100%;
   text-align: center;
   font-size: 150%;
+  padding: 0;
+}
+
+.main-text p{
+    border: solid 1px white;
+    width: 9%;
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+.main-text p:hover{
+    background-color: rgb(242, 32, 81);
+    border-color: rgb(242, 32, 81);
 }
