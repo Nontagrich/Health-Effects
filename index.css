@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=DynaPuff:wght@500&family=Figtree&family=Itim&family=Kanit&family=Prompt&family=Raleway:wght@400;600;700&family=Rubik+Marker+Hatch&display=swap');
+
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.main-img{
+    background: url(https://farm1.staticflickr.com/879/27578007138_5a1b5f4a94_b.jpg);
+}
