@@ -46,16 +46,27 @@ body,html{
     height: 100%;
 }
 
+.content1 h1{
+    font-size: 300%;
+    text-align: center;
+}
+
 .box1{
     height: 80%;
     width: 60%;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-left: 20%;
     display: block;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border: solid 1px rgb(103, 94, 96);
-    border-color: rgb(103, 94, 96);
-    background-color: rgb(103, 94, 96);
+    border: solid 1px rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.con-img{
+    width: 50%;
+    text-align: center;
 }
