@@ -6,6 +6,7 @@ body,html{
     width: 100%;
     height: 100%;
     font-family: 'Kanit', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .main-img{
@@ -43,7 +44,7 @@ body,html{
 .content1{
     border: solid 1px rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    height: 100%;
+    height: 110rem;
 }
 
 .content1 h1{
@@ -52,7 +53,7 @@ body,html{
 }
 
 .box1{
-    height: 80rem;
+    height: 90rem;
     width: 60%;
     margin-top: 5%;
     margin-left: 20%;
@@ -87,5 +88,9 @@ body,html{
     padding-left: 10%;
     padding-top: 0%;
     margin-right: 10%;
+}
+
+.contact{
+    
 }
 
