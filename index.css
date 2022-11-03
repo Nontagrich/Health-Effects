@@ -39,3 +39,9 @@ body,html{
     background-color: rgb(242, 32, 81);
     border-color: rgb(242, 32, 81);
 }
+
+.content1{
+    border: solid 1px rgb(164, 154, 154);
+    background-color: rgb(175, 164, 164);
+    height: 100%;
+}
