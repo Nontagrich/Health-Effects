@@ -44,7 +44,7 @@ body,html{
 .content1{
     border: solid 1px rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    height: 110rem;
+    height: 100rem;
 }
 
 .content1 h1{
@@ -91,6 +91,24 @@ body,html{
 }
 
 .contact{
+    border: solid 1px rgb(47, 48, 52);
+    background-color: rgb(47, 48, 52);
+    text-align: center;
+}
+
+.contact h1{
+    color: white;
     
 }
+
+.contact img{
+    width: 20%;
+    
+}
+
+.contact h2{
+    
+    color: white;
+}
+
 
