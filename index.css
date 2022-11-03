@@ -94,6 +94,8 @@ body,html{
     border: solid 1px rgb(47, 48, 52);
     background-color: rgb(47, 48, 52);
     text-align: center;
+    border-top: solid 3px rgb(242, 32, 81);
+    
 }
 
 .contact h1{
