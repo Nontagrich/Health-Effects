@@ -52,9 +52,9 @@ body,html{
 }
 
 .box1{
-    height: 80%;
+    height: 80rem;
     width: 60%;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-left: 20%;
     display: block;
     justify-content: center;
@@ -69,10 +69,23 @@ body,html{
 .con-img{
     width: 80%;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 0%;
     text-align: center;
 }
 
 .box1 h2{
     padding-left: 10%;
 }
+
+.box1 h3{
+    padding-left: 10%;
+    padding-top: 1%;
+    margin-right: 10%;
+}
+
+.box1 p{
+    padding-left: 10%;
+    padding-top: 0%;
+    margin-right: 10%;
+}
+
