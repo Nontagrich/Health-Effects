@@ -46,7 +46,7 @@ body,html{
 .content1{
     border: solid 1px rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    height: 100rem;
+    height: 220%;
 }
 
 .content1 h1{
@@ -104,6 +104,30 @@ body,html{
         margin-left: 35%;
     }
     
+
+}
+@media only screen and (max-width: 600px) {
+    .content1{
+        height: 250%;
+    }
+    
+    .box1{
+        height: 80%;
+    }
+    
+    .content1 h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    .box1 h2{
+        font-size: 100%;
+    }
+    .box1 h3{
+        font-size: 80%; 
+    }
+    .box1 p{
+        font-size: 80%; 
+    }
 
 }
 
