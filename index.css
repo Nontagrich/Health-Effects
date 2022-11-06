@@ -44,22 +44,23 @@ body,html{
 .content1{
     border: solid 1px rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    height: 100rem;
+    height: 100%;
+    padding-bottom: 10%;
+    
 }
 
 .content1 h1{
     font-size: 300%;
     text-align: center;
+    
 }
 
 .box1{
-    height: 90%;
+    height: 200%;
     width: 60%;
+    display: block;
     margin-top: 5%;
     margin-left: 20%;
-    display: flex inline;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     border: solid 1px rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
@@ -85,13 +86,13 @@ body,html{
 }
 
 .box1 p{
-    padding-left: 10%;
-    padding-top: 0%;
+    margin-left: 10%;
+    margin-top: 0%;
     margin-right: 10%;
 }
 
 .contact{
-    margin-top: 10%;
+    margin-top: 60%;
     border: solid 1px rgb(47, 48, 52);
     background-color: rgb(47, 48, 52);
     text-align: center;
@@ -128,68 +129,4 @@ body,html{
         height: 95%;
     }
 
-}
-
-@media only screen and (max-width: 400px) {
-    
-    @media only screen and (max-height: 700px) {
-    .content1{
-        height: 160rem;
-    }
-    
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    
-    @media only screen and (max-height: 900px) {
-    .content1{
-        height: 140rem;
-    }
-    
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    
-    @media only screen and (max-height: 750px) {
-    .content1{
-        height: 160rem;
-    }
-    
-    }
-}
-
-
-@media only screen and (max-width: 420px) {
-    
-    @media only screen and (max-height: 950px) {
-    .content1{
-        height: 140rem;
-    }
-    
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    
-    @media only screen and (max-height: 950px) {
-    .content1{
-        height: 120rem;
-    }
-    
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    
-    @media only screen and (max-height: 950px) {
-    .content1{
-        height: 185rem;
-    }
-    .main-text{
-        top: 10%;
-    }
-
-    }
 }
