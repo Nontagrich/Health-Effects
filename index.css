@@ -53,11 +53,11 @@ body,html{
 }
 
 .box1{
-    height: 95%;
+    height: 90%;
     width: 60%;
     margin-top: 5%;
     margin-left: 20%;
-    display: block;
+    display: flex inline;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -91,6 +91,7 @@ body,html{
 }
 
 .contact{
+    margin-top: 10%;
     border: solid 1px rgb(47, 48, 52);
     background-color: rgb(47, 48, 52);
     text-align: center;
@@ -123,7 +124,9 @@ body,html{
         display: block;
         margin-left: 35%;
     }
-    
+    .box1{
+        height: 95%;
+    }
 
 }
 
