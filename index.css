@@ -58,8 +58,10 @@ body,html{
 .box1{
     height: 200%;
     width: 60%;
-    display: block;
     margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     margin-left: 20%;
     overflow: hidden;
     border: solid 1px rgb(255, 255, 255);
@@ -91,29 +93,7 @@ body,html{
     margin-right: 10%;
 }
 
-.contact{
-    margin-top: 60%;
-    border: solid 1px rgb(47, 48, 52);
-    background-color: rgb(47, 48, 52);
-    text-align: center;
-    border-top: solid 3px rgb(242, 32, 81);
-    
-}
 
-.contact h1{
-    color: white;
-    
-}
-
-.contact img{
-    width: 20%;
-    
-}
-
-.contact h2{
-    
-    color: white;
-}
 
 
 @media only screen and (max-width: 1000px) {
@@ -126,7 +106,7 @@ body,html{
         margin-left: 35%;
     }
     .box1{
-        height: 95%;
+        height: 195%;
     }
 
 }
